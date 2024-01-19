@@ -1,0 +1,56 @@
+body {
+    display:flex;
+    justify-content:center;
+    background-color: #FAAF86;
+    margin:3;
+    padding:0;
+  }
+  @font-face{
+    font-family: 'Genty Demo', sans-serif;
+    src: url('./Assets/Images/Fonts/genty/GentyDemo-Regular.ttf');                                          
+  }
+  div {
+    border: 2px solid black;
+  }
+  
+  div#wrapper {
+    background-color: #F4E9DD;
+    width:800px;
+    height:1000px;
+    display:inline-block;
+  /*   overflow:hidden */
+  }
+  div#logoheader{
+    width:800px;
+    height:200px;
+    text-align:center;
+    background-image: url(Assets/Images/LOGO.png);
+    
+  }
+  div#nav{
+    display: grid;
+    grid-template-rows: (4,1fr);
+    height:733.5px;
+    width:200px;
+    float:left;
+  }
+  a{
+    font-family: 'Genty Demo';
+  }
+
+  div#header{
+    float:right;
+    height:200px;
+    width:592px;
+  }
+  
+  div#main{
+    float:right;
+    height:530px;
+    width:592px;
+  }
+  div#footer {
+    width:800px;
+    height:57px;
+    float:left;
+  }
